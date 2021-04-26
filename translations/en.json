@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Botfuel",
+    "short_description": "Conversational Marketing platform for E-commerce.",
+    "long_description": "Helping leading retailers get to the next level in customer experience. Conversational Marketing platform for E-commerce.",
+    "installation_instructions": "Create your account on app.botfuel.io, then install our application on Zendesk."
+  }
+}
