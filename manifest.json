@@ -2,11 +2,10 @@
   "name": "botfuel-hermes-zendesk-app",
   "author": {
     "name": "botfuel",
-    "email": "hi@botfuel.io",
+    "email": "contact@botfuel.io",
     "url": "https://botfuel.io"
   },
   "defaultLocale": "en",
-  "private": true,
   "version": "1.0",
   "requirementsOnly": true
 }
