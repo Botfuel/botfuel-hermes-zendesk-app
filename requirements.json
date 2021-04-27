@@ -1,7 +1,0 @@
-{
-  "channel_integrations": {
-    "botfuel": {
-      "manifest_url": "https://botfuel-hermes-backend.herokuapp.com/integration/zendesk/manifest"
-    }
-  }
-}

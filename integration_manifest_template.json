@@ -1,0 +1,12 @@
+{
+  "name": "Botfuel",
+  "id": "io.botfuel.hermes",
+  "push_client_id": "botfuel_hermes",
+  "author": "Botfuel",
+  "version": "v0.0.1",
+  "channelback_files": true,
+  "urls": {
+    "admin_ui": "BACKEND_URL/integration/zendesk/admin_ui",
+    "channelback_url": "BACKEND_URL/integration/zendesk/channelback"
+  }
+}
