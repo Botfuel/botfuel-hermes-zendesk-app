@@ -1,7 +1,7 @@
 {
   "channel_integrations": {
     "botfuel": {
-      "manifest_url": "https://asset.botfuel.io/zendesk_integration_manifest.json"
+      "manifest_url": "https://static.botfuel.io/zendesk_integration_manifest.json"
     }
   }
 }
