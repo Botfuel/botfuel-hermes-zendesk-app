@@ -2,7 +2,7 @@
   "app": {
     "name": "Botfuel",
     "short_description": "Sales enabling chatbot platform for E-commerce.",
-    "long_description": "Helping leading e-retailers get to the next level in customer experience and conversion optimization.",
-    "installation_instructions": "Create your account on app.botfuel.io, then install our application on Zendesk."
+    "long_description": "en_long_description.md",
+    "installation_instructions": "en_installation_instructions.md"
   }
 }

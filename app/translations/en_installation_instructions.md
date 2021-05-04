@@ -1,0 +1,1 @@
+Create your account on app.botfuel.io, then install our application on Zendesk.

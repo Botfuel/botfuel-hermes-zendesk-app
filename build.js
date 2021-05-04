@@ -6,9 +6,20 @@ const BACKEND_URL = '';
 const zip = new AdmZip();
 
 zip.addLocalFolder('./app/assets', '/assets');
-zip.addLocalFolder('./app/translations', '/translations');
 zip.addLocalFile('./app/manifest.json');
 zip.addLocalFile('./app/requirements.json');
+
+// build translation folder
+const addTranslationFile = (lang) => {
+  const langJson = JSON.parse(fs.readFileSync('./app/translations/' + lang + '.json'));
+  langJson.app.long_description = fs.readFileSync('./app/translations/' + lang + '_long_description.md').toString().replace(/\r/g, '');
+  langJson.app.installation_instructions = fs.readFileSync('./app/translations/' + lang + '_installation_instructions.md').toString().replace(/\r/g, '');
+  zip.addFile(
+    'translations/' + lang + '.json',
+    Buffer.from(JSON.stringify(langJson, null, 2), 'utf8')
+  );
+};
+addTranslationFile('en');
 
 zip.writeZip('./dist/app.zip');
 
