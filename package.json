@@ -1,7 +1,7 @@
 {
   "name": "botfuel-hermes-zendesk-app",
   "version": "1.0.0",
-  "description": "This application let you use Zendesk as a handover method for your bot.",
+  "description": "This application allows you to use Zendesk as a handover method for your Botfuel assistant.",
   "main": "index.js",
   "scripts": {
     "build": "node build.js"
@@ -10,12 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/Botfuel/botfuel-hermes-zendesk-app.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Botfuel/botfuel-hermes-zendesk-app/issues"
-  },
-  "homepage": "https://github.com/Botfuel/botfuel-hermes-zendesk-app#readme",
   "dependencies": {
     "adm-zip": "^0.5.5"
   }

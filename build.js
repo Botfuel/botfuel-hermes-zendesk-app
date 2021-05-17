@@ -1,6 +1,6 @@
 const fs = require('fs');
 const AdmZip = require('adm-zip');
-const BACKEND_URL = '';
+const BACKEND_URL = 'https://app.botfuel.io';
 
 // build zip
 const zip = new AdmZip();

@@ -1,4 +1,37 @@
+.idea
 node_modules
-*.zip
-dist/*.zip
-dist/*.json
+
+__pycache__
+*.pyc
+include/
+lib/
+pyvenv.cfg
+share/
+lib64/
+model_*
+.make/
+*.egg-info
+dump.rdb
+.env
+.mypy_cache
+
+# Virtual environment
+env/*
+venv/*
+
+# Mac specific
+.DS_Store
+
+# IDE settings
+.vscode
+
+# notebooks
+**/.ipynb_checkpoints
+.env
+Procfile.local
+
+logs/
+log/
+
+data/customers/gemo/products.xml
+data/customers/fermob/test.html
