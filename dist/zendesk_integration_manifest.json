@@ -4,7 +4,7 @@
   "name": "Botfuel",
   "push_client_id": "botfuel_hermes",
   "urls": {
-    "admin_ui": "https://app.botfuel.io/integration/zendesk/admin_ui",
-    "channelback_url": "https://app.botfuel.io/integration/zendesk/channelback"
+    "admin_ui": "https://botfuel-hermes-backend.herokuapp.com/integration/zendesk/admin_ui",
+    "channelback_url": "https://botfuel-hermes-backend.herokuapp.com/integration/zendesk/channelback"
   }
 }
