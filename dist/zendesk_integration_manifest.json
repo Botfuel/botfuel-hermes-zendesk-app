@@ -2,7 +2,7 @@
   "channelback_files": true,
   "id": "io.botfuel.hermes",
   "name": "Botfuel",
-  "push_client_id": "botfuel_hermes",
+  "push_client_id": "zdg-botfuel",
   "urls": {
     "admin_ui": "https://botfuel-hermes-backend.herokuapp.com/integration/zendesk/admin_ui",
     "channelback_url": "https://botfuel-hermes-backend.herokuapp.com/integration/zendesk/channelback"
